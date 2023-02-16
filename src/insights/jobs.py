@@ -31,6 +31,7 @@ def read(path: str) -> List[Dict]:
             # print(item)
         list.append(item)
     print(list)
+    return list
 
 
 def get_unique_job_types(path: str) -> List[str]:
