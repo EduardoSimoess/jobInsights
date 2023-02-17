@@ -60,7 +60,7 @@ def get_min_salary(path: str) -> int:
             min = num
     return min
 
-print(get_min_salary('/home/eduardo/Projeto/sd-022-b-project-job-insights/data/jobs.csv'))
+
 def matches_salary_range(job: Dict, salary: Union[int, str]) -> bool:
     """Checks if a given salary is in the salary range of a given job
 
